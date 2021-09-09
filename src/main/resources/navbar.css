@@ -1,0 +1,26 @@
+#brand-name {
+	font-size: 1.1em;
+	position: relative;
+}
+
+#brand-name:hover {
+	color: #E0DFDF;
+}
+
+#brand-name::after {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: white;
+	color: transparent;
+	width: 0;
+	content: '.';
+	height: 2px;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+#brand-name:hover::after {
+	width: 100%;
+}
