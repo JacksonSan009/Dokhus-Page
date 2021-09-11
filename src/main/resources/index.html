@@ -9,32 +9,51 @@
 	<!-- Bootstrap CSS-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Playfair Display by Claus Eggers Sørensen -->
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
 	<!-- Navbar CSS -->
-	<link href="navbar.css" rel="stylesheet">
+	<link href="css/navbar.css" rel="stylesheet">
+	<!-- Index CSS -->
+	<link href="css/index.css" rel="stylesheet">
 </head>
-<body class="bg-dark">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!-- Navbar -->
-<nav class="navbar navbar-dark bg-dark navbar-expand-sm justify-content-center">
-	<ul class="navbar-nav">
-		<li class="nav-item">
-			<a class="nav-link" href="#">Home</a>
-		</li>
+<div class="tap scrollspy-example" id="index">
+	<!-- Navbar -->
+	<nav class="navbar navbar-dark navbar-expand-sm justify-content-center">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#about-us">About us</a>
+			</li>
 
-		<!-- Name Brand -->
-		<li class="nav-item">
-			<a class="nav-link text-light" id="brand-name" href="#"><h4>DOKHU'S KLAN</h4></a>
-		</li>
+			<!-- Name Brand -->
+			<li class="nav-item">
+				<h4 class="text-light" id="brand-name">DOKHU'S KLAN</h4>
+			</li>
 
-		<li class="nav-item">
-			<a class="nav-link" href="#">Link</a>
-		</li>
-	</ul>
-</nav>
+			<li class="nav-item">
+				<a class="nav-link" href="#people">People</a>
+			</li>
+		</ul>
+	</nav>
 
-<!-- Logo -->
-<img src="images/logo/logo_pixelart_big.png" class="mx-auto d-block img-fluid" alt="logo" width="40%" height="auto">
-<h1 class="text-white">DOKHU'S KLAN</h1>
+	<!-- Logo -->
+	<img src="images/logo/logo_pixelart_big.png" id="logo" class="mx-auto d-block img-fluid" alt="logo">
+</div>
+
+<!-- About us -->
+<div class="tap text-white text-center" id="about-us">
+	<h1>About us</h1>
+	<p>Whe are a group of friends</p>
+</div>
+
+<!-- People-->
+<div class="tap text-white text-center" id="people">
+	<h1>People</h1>
+</div>
 
 <!-- Bootstrap JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

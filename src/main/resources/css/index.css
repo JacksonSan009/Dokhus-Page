@@ -1,0 +1,18 @@
+body, html {
+	height: 3000px;
+}
+
+body{
+	position: relative;
+	background: linear-gradient(#272727 0%, #454546 70%, #666 100%);
+}
+
+.tap {
+	height: 28%;
+}
+
+#logo {
+	width: 50%;
+	height: auto;
+}
+

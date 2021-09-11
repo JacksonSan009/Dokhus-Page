@@ -1,6 +1,6 @@
 #brand-name {
-	font-size: 1.1em;
 	position: relative;
+	font-family: 'Playfair Display', serif;
 }
 
 #brand-name:hover {
@@ -9,7 +9,7 @@
 
 #brand-name::after {
 	position: absolute;
-	bottom: 10px;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
