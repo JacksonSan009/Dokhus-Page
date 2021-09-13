@@ -1,18 +1,38 @@
 body, html {
-	height: 3000px;
+	height: 4000px;
 }
 
-body{
+body {
 	position: relative;
-	background: linear-gradient(#272727 0%, #454546 70%, #666 100%);
+	background: linear-gradient(#272727 0%, #454546 80%, #666 100%);
 }
 
 .tap {
-	height: 28%;
+	height: 840px;
 }
 
 #logo {
 	width: 50%;
 	height: auto;
 }
+
+.card img {
+	object-fit: cover;
+	width: 356px;
+	height: 350px;
+}
+
+.card:hover {
+	box-shadow: 8px 6px 14px 0 #6d6a6a;
+}
+
+#addPerson {
+	width: 356px;
+	height: 406px;
+}
+
+#addPerson:hover {
+	box-shadow: 8px 6px 14px 0 #6d6a6a;
+}
+
 
