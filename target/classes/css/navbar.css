@@ -1,0 +1,26 @@
+#brand-name {
+	position: relative;
+	font-family: 'Playfair Display', serif;
+}
+
+#brand-name:hover {
+	color: #E0DFDF;
+}
+
+#brand-name::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: white;
+	color: transparent;
+	width: 0;
+	content: '.';
+	height: 2px;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+#brand-name:hover::after {
+	width: 100%;
+}
